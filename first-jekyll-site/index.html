@@ -1,13 +1,25 @@
 ---
 layout: default
-title: My First Jekyll Site
+title: Home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div>
+<figure>
+  <div class="house"><img class="derp" src="house1.jpg" alt="Macaque in the trees"></div>
+  <figcaption>$1,986,000</figcaption> <figcaption><a href="page1.html">Click Here to View</a></figcaption>
+</figure>
+</div>
+
+<div>
+<figure>
+  <div class="house"><img src="house2.jpg" alt="Macaque in the trees"></div>
+  <figcaption>$1,980,000</figcaption> <figcaption><a href="page2.html">Click Here to View</a></figcaption>
+</figure>
+</div>
+
+<div>
+<figure>
+  <div class="house"><img src="house3.jpg" alt="Macaque in the trees"></div>
+  <figcaption>$1,899,000</figcaption> <figcaption><a href="page3.html">Click Here to View</a></figcaption>
+</figure>
 </div>
